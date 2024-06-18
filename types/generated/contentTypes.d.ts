@@ -386,12 +386,14 @@ export interface ApiSensorSensor extends Schema.CollectionType {
       'plugin::users-permissions.user'
     >;
     Wind_speed: Attribute.Float;
-    Wind_direction: Attribute.Float;
+    Wind_direction_x: Attribute.Float;
     moisture1: Attribute.Float;
     moisture2: Attribute.Float;
     moisture3: Attribute.Float;
     Temperature_Air: Attribute.Float;
     Rain: Attribute.Float;
+    Wind_direction_y: Attribute.Float;
+    Wind_direction_z: Attribute.Float;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

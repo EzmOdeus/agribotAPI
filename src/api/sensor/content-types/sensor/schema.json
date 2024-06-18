@@ -39,7 +39,7 @@
     "Wind_speed": {
       "type": "float"
     },
-    "Wind_direction": {
+    "Wind_direction_x": {
       "type": "float"
     },
     "moisture1": {
@@ -55,6 +55,12 @@
       "type": "float"
     },
     "Rain": {
+      "type": "float"
+    },
+    "Wind_direction_y": {
+      "type": "float"
+    },
+    "Wind_direction_z": {
       "type": "float"
     }
   }
